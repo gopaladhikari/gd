@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GD.</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="bg-blue_color text-white_color">
+      <div class="flex justify-between items-center">
+        <div
+          class="icon text-[40px] font-bold font-[raleway] px-8 md:px-16 xl:px-40 py-4 md:py-6"
+        >
+          GD.
+        </div>
+        <!-- Nav-links for Desktop -->
+        <div
+          class="nav-items hidden md:block px-8 md:px-16 xl:px-40 py-4 md:py-6"
+        >
+          <ul
+            class="flex gap-8 lg:gap-16 font-xl font-[Poppins] items-center text-[16px]"
+          >
+            <li>
+              <a href="/">About</a>
+            </li>
+            <li>
+              <a href="/">Services</a>
+            </li>
+            <li>
+              <a href="/">Our Work</a>
+            </li>
+            <li
+              class="bg-light_black_color py-4 hover:bg-orange_color px-8 rounded-3xl text-[18px] transition ease-linear duration-300 hover:scale-95"
+              class="bg-light_black_color py-4 hover:bg-orange_color px-8 rounded-3xl text-[18px] transition ease-linear duration-300 hover:scale-95"
+            >
+              <a href="/">Enroll now</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Nav-links for Desktop End -->
+        <span class="md:hidden px-8 text-[18px]">
+          <i class="fa-solid fa-bars" id="bars"></i>
+        </span>
+        <span class="hidden px-8 text-[18px]" id="cross">
+          <i class="fa-solid fa-xmark"> </i
+        ></span>
+        <div
+          id="mobile-nav-links"
+          class="fixed top-[10.5%] right-[-100%] w-screen h-screen bg-light_black_color text-white"
+        >
+          <ul
+            class="font-xl font-[Poppins] text-[16px] flex items-center justify-center flex-col space-y-8 h-[75%]"
+          >
+            <li class="">
+              <a href="/">About</a>
+            </li>
+            <li>
+              <a href="/">Services</a>
+            </li>
+            <li>
+              <a href="/">Our Work</a>
+            </li>
+            <li class="">
+              <a
+                href="/"
+                class="bg-orange_color py-4 px-8 rounded-3xl text-[18px]"
+                >Enroll now</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Nav-links for Mobile End -->
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Banner -->
+    <section
+      class="bg-blue_color first-letter:max-h-screen font-[Poppins] lg:flex pl-8 px-8 md:pl-16 xl:pl-40 py-4 md:py-6"
+    >
+      <div class="text-white_color">
+        <h1 class="font-[Raleway] text-[32px] xl:text-[50px] font-bold">
+          Learn the art of
+        </h1>
+        <h1 class="font-[Raleway] text-[32px] xl:text-[50px] font-bold">
+          Game Dev
+        </h1>
+        <p>This is a comprehensive course on Game Development.</p>
+        <p>You will learn everything from generating an idea to</p>
+        <p>publishing your games to different platforms.</p>
+        <button
+          class="bg-orange flex bg-orange_color px-8 rounded-3xl py-4 my-8 text-[18px] items-center space-x-1"
+        >
+          <img src="./Images/PencilAlt.png" alt="" /> <span> Enroll Now </span>
+        </button>
+      </div>
+      <div class="flex justify-around">
+        <div class="lg:pl-12 md:mt-[5rem] lg:mt-0">
+          <div
+            class="bg-white_color rounded-3xl shadow-2xl text-center lg:px-14 lg:py-2 lg:ml-[10rem] w-[10rem] lg:w-[15rem] py-3 lg:mt-[10rem]"
+          >
+            <span class="text-[30] lg:text-[36px] font-bold">32K</span> <br />
+            <span>Student Enroll</span>
+          </div>
+          <div
+            class="bg-white_color rounded-3xl shadow-2xl text-center lg:px-14 lg:py-2 lg:mt-[10rem] mt-[5rem] w-[10rem] py-3 lg:w-[15rem]"
+          >
+            <span class="text-[30] lg:text-[36px] font-bold"
+              >4.7 <i class="fa-solid fa-star text-[#FFCE31]"></i> </span
+            ><br />
+            <span>Overall Rating</span>
+          </div>
+        </div>
+        <div class="max-w-[400px] lg:ml-[5rem] flex">
+          <img
+            src="./Images/banner.png"
+            class="mt-auto w-full 2xl:w-[400px] 2xl:h-[521px]"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Banner End -->
+  </body>
+  <script src="script.js"></script>
+</html>
